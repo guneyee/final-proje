@@ -1,0 +1,11 @@
+[package]
+name = "smart-contract-setup"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+chrono = "0.4"
+
+[[bin]]
+name = "contract-setup"
+path = "src/main.rs"
