@@ -1,0 +1,22 @@
+[package]
+version = "0.1.0"
+edition = "2021"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+name = "substrate-contract-interaction"
+
+
+[source]
+registry = "https://github0.16.0ust-lang/crates.io-index"
+[dependencies]
+
+ink-lang = { git = "https://github.com/example/ink-lang.git", branch = "main" }
+
+substrate-subxt = "0.16.0"
+
+hex = "0.4.3"
+
+[dependencies.sp-io]
+version = "24.0.0"
+
+[dependencies.sp-core]
+version = "22.0.0"
