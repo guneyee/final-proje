@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "addingtrust"
+name = "3. Adding trusted nodes to a network"
 version = "0.1.0"
